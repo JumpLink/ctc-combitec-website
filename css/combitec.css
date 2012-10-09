@@ -24,15 +24,13 @@
 #content_bild {
 	position:absolute;
 	left:540px;
-	top:148px;
+	top:160px;
 	width:380px;
 	height:348px;
 	z-index:2;
 }
 #navi {
-	position:absolute;
-	left:0px;
-	top:545px;
+	background-color: #545454;
 	width:530px;
 	height:20px;
 	z-index:2;
