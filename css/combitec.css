@@ -1,39 +1,84 @@
 @charset "UTF-8";
-#main {
-	position:relative;
-	left:45px;
-	width:960px;
-	height:600px;
-	z-index:1;
+
+@media (min-width: 767px) {
+	#navi-stack {
+		display: none;
+	}
+	body {
+		padding-top: 160px;
+	}
 }
+
+@media (max-width: 767px) {
+	.cat_image  {
+		display: none;
+	}
+	#navi {
+		display: none;
+	}
+	#header img {
+		display: none;
+	}
+	body {
+		padding-top: 95px;
+	}
+}
+
 #header {
-	position:absolute;
-	left:0px;
+	position: fixed;
 	top:0px;
-	width:960px;
-	height:115px;
-	z-index:2;
-}
-#content_text {
-	position:absolute;
 	left:0px;
-	top:170px;
-	width:465px;
-	z-index:2;
+	background-color: #545454;
+	margin-bottom: 30px;
+	padding-bottom: 5px;
+	width: 100%;
+	box-shadow: 0 0 5px #666;
 }
-#content_bild {
-	position:absolute;
-	left:540px;
-	top:160px;
-	width:380px;
-	height:348px;
-	z-index:2;
+
+#footer {
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	background-color: #545454;
+	margin-top: 30px;
+	padding-top: 5px;
+	width: 100%;
+	box-shadow: 0 0 5px #666;
+	color: #f3f3f3;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	padding-bottom:6px;
 }
+
+#navi-stack {
+	background-color: #545454;
+	text-align: center;
+	width: 100%;
+}
+
+#navi-stack a {
+	color: white;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 15px;
+	width: 100%;
+}
+
+#navi-stack a.active {
+	color: #6699cc;
+}
+
+#navi a:hover {
+	color: #6699cc;
+}
+
 #navi {
 	background-color: #545454;
-	width:530px;
+	width:100%;
 	height:20px;
-	z-index:2;
 }
 
 #navi a {
@@ -41,12 +86,12 @@
 	font-size: 12px;
 	line-height: 15px;
 	text-decoration:none;
-	color: #6699cc;
 	text-transform: uppercase;
 	color: white;
 	padding:0px;
 	margin:0px;
 	background-image: url(../img/point.gif);
+	background-color: #545454;
 	background-position:right;
 	background-repeat:no-repeat;
 	padding-right: 16px;
@@ -65,9 +110,6 @@
 	color: #6699cc;
 }
 
-body {
-	background-image: url(../img/bg.jpg);
-}
 .headline {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
@@ -81,13 +123,6 @@ body {
 	line-height: 16px;
 	color: #333333;
 	text-transform: none;
-}
-#content_textlang {
-	position:absolute;
-	left:0px;
-	top:170px;
-	width:850px;
-	z-index:2;
 }
 .btn1 {
 	width:16px;
