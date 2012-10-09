@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>CTC  -  CombiTeC GmbH Gesellschaft für technologische Combinationsverfahren mbH in Wedel </title>
 
-<link href="combitec.css" rel="stylesheet" type="text/css" />
+<link href="css/combitec.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
 #buttons12 {
@@ -15,39 +15,14 @@
 }
 -->
 </style>
-<script type="text/javascript">
-<!--
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
 </head>
-<body onload="MM_preloadImages('bilder/unternehmen_1.gif','bilder/referenzen_1.gif','bilder/kontakt_1.gif','bilder/impressum_1.gif','bilder/2_on.gif')">
+<body>
 
 <table align="center" width="0" height="0" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td>
 <div id="main">
-  <div id="header"><img src="bilder/logo.jpg" width="422" height="115" /></div>
+  <div id="header"><img src="img/logo.jpg" width="422" height="115" /></div>
 <div class="headline" id="content_text">Leistungsangebot<br />
   <br />
   <span class="copy">Unser Ziel ist es, als erfahrener Entwickler bzw. Systemlieferant im Maschinenbau, Fahrzeug- und Flugzeugbau, Absaugtechnik, Feinmechanik, Medizintechnik und dem Werkzeugbau vorwiegend Vorrichtungen und Maschinen für Handwerk und Industrie als Komplettlösungen aus einer Hand anzubieten.<br />
@@ -58,13 +33,19 @@ function MM_swapImage() { //v3.0
       <br />
       Alle von uns konstruierten Teile, gleich ob es ein Einzelteil oder eine Maschine ist, können selbstverständlich auch bei uns hergestellt bzw. geliefert werden.<br />
       Fertigungsteile nach Zeichnung gehören ebenfalls zu unserem Leistungsangebot dazu.</span></div>
-<div id="buttons12"><img src="bilder/1_on.gif" name="Image8" width="16" height="16" border="0" id="Image8" />  <a href="leistung2.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','bilder/2_on.gif',1)"><img src="bilder/2_off.gif" name="Image9" width="16" height="16" border="0" id="Image9" /></a></div>
+  <div id="buttons12">
+    <div class="btn1"><a class="active" ></a></div>
+    <div class="btn2"><a href="leistung2.html"></a></div>
+  </div>
+
+  <div id="content_bild"><img src="img/pic_leistung.jpg" width="380" height="348"></div>
     
-    
-    <div id="content_bild"><img src="bilder/pic_leistung.jpg" width="380" height="348" /></div>
-<div id="navi"><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','bilder/unternehmen_1.gif',1)"><img src="bilder/unternehmen_0.gif" name="Image3" width="104" height="18" border="0" id="Image3" /></a><img src="bilder/leistung_1.gif" name="Image4" width="145" height="18" border="0" id="Image4" /><a href="kontakt.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','bilder/kontakt_1.gif',1)"><img src="bilder/kontakt_0.gif" name="Image6" width="76" height="18" border="0" id="Image6" /></a><a href="impressum.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','bilder/impressum_1.gif',1)"><img src="bilder/impressum_0.gif" name="Image7" width="86" height="18" border="0" id="Image7" /></a></div>
-
-
-
+<div id="navi">
+  <a href="index.html">Unternehmen</a>
+  <a class="active">Leistungsangebot</a>
+  <a href="kontakt.html">Kontakt</a>
+  <a class="last" href="impressum.html">Impressum</a>
 </div>
-</td></tr></table></body></html>
+</td></tr></table>
+</div>
+</body></html>
