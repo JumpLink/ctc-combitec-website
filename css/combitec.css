@@ -54,8 +54,10 @@
 
 #navi-stack {
 	background-color: #545454;
-	text-align: center;
 	width: 100%;
+	background-image: url(../img/logo_klein.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
 }
 
 #navi-stack a {
@@ -65,6 +67,7 @@
 	font-size: 12px;
 	line-height: 15px;
 	width: 100%;
+	padding-left: 5px;
 }
 
 #navi-stack a.active {
