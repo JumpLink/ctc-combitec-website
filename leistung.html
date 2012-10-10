@@ -40,30 +40,40 @@
   <div class="row">
     <div class="span6">
       <div class="headline">Leistungsangebot<br /></div>
-        <br />
-        <span class="copy">Unser Ziel ist es, als erfahrener Entwickler bzw. Systemlieferant im Maschinenbau, Fahrzeug- und Flugzeugbau, Absaugtechnik, Feinmechanik, Medizintechnik und dem Werkzeugbau vorwiegend Vorrichtungen und Maschinen für Handwerk und Industrie als Komplettlösungen aus einer Hand anzubieten.<br />
-        <br />
-        Forschung, Entwicklung, Konstruktion, Herstellung und Erfindung von technologisch innovativen Verfahren und Vorrichtungen als Einzel- und/oder Systemkomponenten stehen hierbei im Mittelpunkt.<br />
-        <br />
-        Neben der Beratung unserer Kunden, führen wir an 3-D-CAD-Arbeitplätzen Entwürfe, Konzepte aber natürlich auch umfangreiche Konstruktionen mit Dokumentationen nach Kundenwünschen aus.<br />
-        <br />
-        Alle von uns konstruierten Teile, gleich ob es ein Einzelteil oder eine Maschine ist, können selbstverständlich auch bei uns hergestellt bzw. geliefert werden.<br />
-        Fertigungsteile nach Zeichnung gehören ebenfalls zu unserem Leistungsangebot dazu.</span><br />
-        <br />
-      <span class="copy">
-        Die Zertifizierung unserer Firma nach DIN EN ISO 9001 : 2000 sichert die Qualität.<br />
-        - Lasersintern von Prototypen und Kleinserien in Kunststoff oder Metall<br />
-        - Lasergravieren von Einzelteilen oder Serienprodukten in z.B. Metall, Kunststoff, <br />
-        
-        Holz usw.<br />
-        - Lasermarkieren von Einzelteilen oder Serienprodukten in z.B. Metall, Kunststoff, Holz usw.<br />
-        - CNC-Drehen von Metall und Kunststoff<br />
-        - CNC-Fräsen von Metall und Kunststoff<br />
-        - Schweißen von Aluminium und Aluminiumkonstruktionen nach DIN V 4113-3 -C-<br />
-        - Schweißen von Stahl und Chrom-Nickel-Stahl<br />
-        - Montage und Qualitätssicherung<br />
-        Beschichtungen, Wärmebehandlung oder Oberflächenveredelung gehören ebenso zum Leistungsangebot.
-        <br /><br /><br /><br />
+      <br />
+      <ul class="nav nav-tabs" id="myTab">
+        <li><a href="#home" data-toggle="tab">Ziele</a></li>
+        <li><a href="#quali" data-toggle="tab">Qualität</a></li>
+      </ul>
+      <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active in" id="home">
+          <span class="copy">Unser Ziel ist es, als erfahrener Entwickler bzw. Systemlieferant im Maschinenbau, Fahrzeug- und Flugzeugbau, Absaugtechnik, Feinmechanik, Medizintechnik und dem Werkzeugbau vorwiegend Vorrichtungen und Maschinen für Handwerk und Industrie als Komplettlösungen aus einer Hand anzubieten.<br />
+          <br />
+          Forschung, Entwicklung, Konstruktion, Herstellung und Erfindung von technologisch innovativen Verfahren und Vorrichtungen als Einzel- und/oder Systemkomponenten stehen hierbei im Mittelpunkt.<br />
+          <br />
+          Neben der Beratung unserer Kunden, führen wir an 3-D-CAD-Arbeitplätzen Entwürfe, Konzepte aber natürlich auch umfangreiche Konstruktionen mit Dokumentationen nach Kundenwünschen aus.<br />
+          <br />
+          Alle von uns konstruierten Teile, gleich ob es ein Einzelteil oder eine Maschine ist, können selbstverständlich auch bei uns hergestellt bzw. geliefert werden.<br />
+          Fertigungsteile nach Zeichnung gehören ebenfalls zu unserem Leistungsangebot dazu.</span><br />
+          <br />
+        </div>
+        <div class="tab-pane fade" id="quali">
+          <span class="copy">
+            Die Zertifizierung unserer Firma nach DIN EN ISO 9001 : 2000 sichert die Qualität.<br />
+            - Lasersintern von Prototypen und Kleinserien in Kunststoff oder Metall<br />
+            - Lasergravieren von Einzelteilen oder Serienprodukten in z.B. Metall, Kunststoff, <br />
+            
+            Holz usw.<br />
+            - Lasermarkieren von Einzelteilen oder Serienprodukten in z.B. Metall, Kunststoff, Holz usw.<br />
+            - CNC-Drehen von Metall und Kunststoff<br />
+            - CNC-Fräsen von Metall und Kunststoff<br />
+            - Schweißen von Aluminium und Aluminiumkonstruktionen nach DIN V 4113-3 -C-<br />
+            - Schweißen von Stahl und Chrom-Nickel-Stahl<br />
+            - Montage und Qualitätssicherung<br />
+            Beschichtungen, Wärmebehandlung oder Oberflächenveredelung gehören ebenso zum Leistungsangebot.
+          </span>
+        </div>
+      </div>
     </div>
       <div class="span6">
         <img class="cat_image"  src="img/pic_leistung.jpg" width="380" height="348">
@@ -75,5 +85,11 @@
     CombiTeC - Gesellschaft für technologische Combinationsverfahren mbH - Pinneberger Stra&szlig;e  2 - 22880 Wedel
   </div>
 </div>
-
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $(function () {
+    $('#myTab a:first').tab('show');
+  })
+</script>
 </body></html>
